@@ -1,0 +1,12 @@
+@mixin label {
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+@mixin label-text {
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 400;
+  color: #727272;
+  margin-bottom: 6px;
+}

@@ -1,0 +1,21 @@
+@import "../mixin.scss";
+
+.label {
+  @include label;
+
+  &-text {
+    @include label-text;
+  }
+}
+
+.text-field {
+  height: 28px;
+  width: 100%;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 7px 8px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+}

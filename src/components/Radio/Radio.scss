@@ -1,0 +1,23 @@
+.radio {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 7px 14px;
+  margin-right: 8px;
+  border: 1px solid #bbb;
+  border-radius: 28px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: background-color .3s, color .3s;
+}
+
+.input {
+  display: none;
+}
+
+.input:checked + .radio {
+  color: #fff;
+  font-weight: 400;
+  border: none;
+  background-color: #c50000;
+}
