@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/crypto_token_form/static/css/main.2402b65e.css",
+    "main.js": "/crypto_token_form/static/js/main.c733addb.js",
+    "static/js/787.6eed6fa1.chunk.js": "/crypto_token_form/static/js/787.6eed6fa1.chunk.js",
+    "static/media/test-capital-logo.svg": "/crypto_token_form/static/media/test-capital-logo.91395cfa9beb4486fa97abe49b038396.svg",
+    "index.html": "/crypto_token_form/index.html",
+    "main.2402b65e.css.map": "/crypto_token_form/static/css/main.2402b65e.css.map",
+    "main.c733addb.js.map": "/crypto_token_form/static/js/main.c733addb.js.map",
+    "787.6eed6fa1.chunk.js.map": "/crypto_token_form/static/js/787.6eed6fa1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2402b65e.css",
+    "static/js/main.c733addb.js"
+  ]
+}
