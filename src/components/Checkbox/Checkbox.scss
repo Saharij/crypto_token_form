@@ -1,13 +1,13 @@
 @import "../mixin.scss";
 
 .checkbox {
-  @include label;
+  @include form-field;
   cursor: pointer;
   margin-bottom: 64px;
 
   &__title {
     @include label-text;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
   }
 
   &__input {

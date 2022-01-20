@@ -1,6 +1,6 @@
 import './Radio.scss';
 
-export const Radio = ({ value, radioText, id }) => {
+export const Radio = ({ value, radioText, id, onChange, checked }) => {
   return (
     <>
       <input
@@ -8,7 +8,11 @@ export const Radio = ({ value, radioText, id }) => {
         type="radio"
         name="blockchain"
         value={value}
+        onChange={() => {
+          onChange(value)
+        }}
         className="input"
+        checked={checked}
       />
       <label
         htmlFor={id}

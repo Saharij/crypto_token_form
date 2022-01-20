@@ -1,8 +1,6 @@
 @import "../mixin.scss";
 
 .label {
-  @include label;
-
   &-text {
     @include label-text;
   }

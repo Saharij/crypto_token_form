@@ -25,14 +25,13 @@
     margin-right: auto;
     margin-left: auto;
 
-    &-select {
-      border: none;
-      font-weight: 700;
-      margin-bottom: 16px;
+    &-field {
+      @include form-field;
+      position: relative;
     }
 
     &-label {
-      @include label;
+      @include form-field;
     }
 
     &-text-select {
@@ -43,6 +42,19 @@
     &-text-radio {
       @include label-text;
       margin-bottom: 8px;
+    }
+  }
+
+  &__form-error {
+    position: absolute;
+    right: 0;
+    color: red;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: right;
+
+    &-checkbox {
+      right: 50%;
     }
   }
 

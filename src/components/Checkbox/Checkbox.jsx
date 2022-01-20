@@ -1,6 +1,6 @@
 import './Checkbox.scss';
 
-export const Checkbox = ({ checkboxText, labelText }) => {
+export const Checkbox = ({ checkboxText, labelText, onChange, checked }) => {
   return (
     <label className="checkbox">
       <p className="checkbox__title">
@@ -8,8 +8,9 @@ export const Checkbox = ({ checkboxText, labelText }) => {
       </p>
       <input
         type="checkbox"
+        onChange={onChange}
         className="checkbox__input"
-        required
+        checked={checked}
       />
       <span className="checkbox__fake"></span>
       <span className="checkbox__text">

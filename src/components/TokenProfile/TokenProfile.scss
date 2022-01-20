@@ -1,0 +1,23 @@
+.table {
+  width: 100%;
+  text-align: center;
+}
+
+.thead {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: yellow;
+  letter-spacing: 0.5px;
+}
+
+.td {
+  border-bottom: 1px solid black;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.tbody {
+  padding-bottom: 15px;
+  background-color: yellowgreen;
+}
