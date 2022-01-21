@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/crypto_token_form/static/css/main.2402b65e.css",
-    "main.js": "/crypto_token_form/static/js/main.c733addb.js",
+    "main.css": "/crypto_token_form/static/css/main.db98aee8.css",
+    "main.js": "/crypto_token_form/static/js/main.32d0485b.js",
     "static/js/787.6eed6fa1.chunk.js": "/crypto_token_form/static/js/787.6eed6fa1.chunk.js",
     "static/media/test-capital-logo.svg": "/crypto_token_form/static/media/test-capital-logo.91395cfa9beb4486fa97abe49b038396.svg",
     "index.html": "/crypto_token_form/index.html",
-    "main.2402b65e.css.map": "/crypto_token_form/static/css/main.2402b65e.css.map",
-    "main.c733addb.js.map": "/crypto_token_form/static/js/main.c733addb.js.map",
+    "main.db98aee8.css.map": "/crypto_token_form/static/css/main.db98aee8.css.map",
+    "main.32d0485b.js.map": "/crypto_token_form/static/js/main.32d0485b.js.map",
     "787.6eed6fa1.chunk.js.map": "/crypto_token_form/static/js/787.6eed6fa1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2402b65e.css",
-    "static/js/main.c733addb.js"
+    "static/css/main.db98aee8.css",
+    "static/js/main.32d0485b.js"
   ]
 }
